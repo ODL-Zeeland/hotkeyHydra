@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hotkey Hydra</string>
+    <string name="ime_name">Hotkey Hydra</string>
+    <string name="enable_keyboard_settings">Enable Hotkey Hydra in Settings</string>
+</resources>

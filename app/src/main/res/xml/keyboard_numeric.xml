@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Default screen: 1-9, 0, decimal, enter, a key to jump to QWERTY (labeled
+  "ABC"), and a fixed bottom row of 5 function keys.
+-->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="25%p"
+    android:keyHeight="50dp"
+    android:horizontalGap="0px"
+    android:verticalGap="2px">
+
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" />
+        <Key android:codes="50" android:keyLabel="2" />
+        <Key android:codes="51" android:keyLabel="3" />
+        <Key android:codes="-5" android:keyLabel="⌫" />
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyLabel="4" />
+        <Key android:codes="53" android:keyLabel="5" />
+        <Key android:codes="54" android:keyLabel="6" />
+        <Key android:codes="10" android:keyLabel="⏎" android:keyWidth="25%p" android:keyHeight="102dp" />
+    </Row>
+    <Row>
+        <Key android:codes="55" android:keyLabel="7" />
+        <Key android:codes="56" android:keyLabel="8" />
+        <Key android:codes="57" android:keyLabel="9" />
+    </Row>
+    <Row>
+        <Key android:codes="45" android:keyLabel="-" android:keyWidth="25%p" />
+        <Key android:codes="48" android:keyLabel="0" android:keyWidth="25%p" />
+        <Key android:codes="46" android:keyLabel="." android:keyWidth="25%p" />
+        <Key android:codes="-101" android:keyLabel="ABC" android:keyWidth="25%p" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-111" android:keyLabel="F1" android:keyWidth="20%p" />
+        <Key android:codes="-112" android:keyLabel="F2" android:keyWidth="20%p" />
+        <Key android:codes="-113" android:keyLabel="F3" android:keyWidth="20%p" />
+        <Key android:codes="-114" android:keyLabel="F4" android:keyWidth="20%p" />
+        <Key android:codes="-115" android:keyLabel="F5" android:keyWidth="20%p" />
+    </Row>
+</Keyboard>
